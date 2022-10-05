@@ -9,14 +9,14 @@
   </head>
   <body>
     <header>
-      <div class="container container-header">
+      <div class="container flex container-header">
         <div class="btn__home">App Academy</div>
         <div class="btn__sign-in">Sign in</div>
       </div>
 
       <!-- navigation -->
       <nav>
-        <ul class="nav-list">
+        <ul class="nav-list container flex">
           <li class="nav-list-item">
             <a href="" class="nav-link">home</a>
           </li>
@@ -35,96 +35,99 @@
 
     <!-- intro -->
     <main class="section__title">
-      <div class="greeting">
+      <div class="greeting container">
         <h1>article title goes here</h1>
       </div>
 
       <!-- more about the author -->
-      <section class="section__sources">
-        <h2 class="author">By [insert author]</h2>
-        <div class="social-links">
-          <div class="social-link">facebook</div>
-          <div class="social-link">Twitter</div>
-          <div class="social-link">Share</div>
+      <section class="section__sources flex">
+        <div class="container flex container-sources">
+          <div class="author">
+            <h2 class="author">By [insert author]</h2>
+          </div>
+          <div class="social-links flex">
+            <div class="social-link">facebook</div>
+            <div class="social-link">Twitter</div>
+            <div class="social-link">Share</div>
+          </div>
         </div>
       </section>
 
       <!-- featured image -->
-      <section class="featured-img">
-        <img src="#" alt="this is a featured image" />
+      <section class="section__featured-img">
+        <div class="container container-img">
+          <img src="#" alt="this is a featured image" class="featured-img" />
+        </div>
       </section>
 
       <!-- main article -->
-      <section class="featured-text">
-        <h3>Section Title:</h3>
-        <p>
-          Croissant pastry muffin halvah marzipan. Marzipan sweet jujubes
-          biscuit apple pie candy cake. Chocolate bar biscuit dessert fruitcake
-          apple pie. Ice cream shortbread biscuit icing jelly beans jelly-o
-          toffee sesame snaps sesame snaps. Caramels cake candy marshmallow
-          dessert pastry. Muffin jelly-o biscuit pie dragée. Jelly-o sesame
-          snaps sweet roll bonbon sweet chocolate bar cookie. Jelly-o gummi
-          bears chocolate sweet cheesecake muffin. Candy pudding gummi bears
-          tootsie roll halvah icing chupa chups jelly bear claw. Macaroon
-          chocolate halvah muffin oat cake bonbon liquorice sweet cotton candy.
-          Jelly macaroon donut halvah sugar plum. Lemon drops toffee biscuit
-          jelly beans cupcake chocolate bar pastry.
-        </p>
-        <h3>Section Title:</h3>
-        <p>
-          Croissant pastry muffin halvah marzipan. Marzipan sweet jujubes
-          biscuit apple pie candy cake. Chocolate bar biscuit dessert fruitcake
-          apple pie. Ice cream shortbread biscuit icing jelly beans jelly-o
-          toffee sesame snaps sesame snaps. Caramels cake candy marshmallow
-          dessert pastry. Muffin jelly-o biscuit pie dragée. Jelly-o sesame
-          snaps sweet roll bonbon sweet chocolate bar cookie. Jelly-o gummi
-          bears chocolate sweet cheesecake muffin. Candy pudding gummi bears
-          tootsie roll halvah icing chupa chups jelly bear claw. Macaroon
-          chocolate halvah muffin oat cake bonbon liquorice sweet cotton candy.
-          Jelly macaroon donut halvah sugar plum. Lemon drops toffee biscuit
-          jelly beans cupcake chocolate bar pastry.
-        </p>
+      <section class="section__featured-text">
+        <article class="featured-text container">
+          <h3 class="article__section-title">Section Title:</h3>
+          <p>
+            Croissant pastry muffin halvah marzipan. Marzipan sweet jujubes
+            biscuit apple pie candy cake. Chocolate bar biscuit dessert
+            fruitcake apple pie. Ice cream shortbread biscuit icing jelly beans
+            jelly-o toffee sesame snaps sesame snaps. Caramels cake candy
+            marshmallow dessert pastry. Muffin jelly-o biscuit pie dragée.
+            Jelly-o sesame snaps sweet roll bonbon sweet chocolate bar cookie.
+            Jelly-o gummi bears chocolate sweet cheesecake muffin. Candy pudding
+            gummi bears tootsie roll halvah icing chupa chups jelly bear claw.
+            Macaroon chocolate halvah muffin oat cake bonbon liquorice sweet
+            cotton candy. Jelly macaroon donut halvah sugar plum. Lemon drops
+            toffee biscuit jelly beans cupcake chocolate bar pastry.
+          </p>
+          <h3 class="article__section-title">Section Title:</h3>
+          <p>
+            Croissant pastry muffin halvah marzipan. Marzipan sweet jujubes
+            biscuit apple pie candy cake. Chocolate bar biscuit dessert
+            fruitcake apple pie. Ice cream shortbread biscuit icing jelly beans
+            jelly-o toffee sesame snaps sesame snaps. Caramels cake candy
+            marshmallow dessert pastry. Muffin jelly-o biscuit pie dragée.
+            Jelly-o sesame snaps sweet roll bonbon sweet chocolate bar cookie.
+            Jelly-o gummi bears chocolate sweet cheesecake muffin. Candy pudding
+            gummi bears tootsie roll halvah icing chupa chups jelly bear claw.
+            Macaroon chocolate halvah muffin oat cake bonbon liquorice sweet
+            cotton candy. Jelly macaroon donut halvah sugar plum. Lemon drops
+            toffee biscuit jelly beans cupcake chocolate bar pastry.
+          </p>
+        </article>
       </section>
 
       <!-- key features -->
-      <section class="key-features">
-        <table>
-          <tbody>
-            <tr class="bold">
-              <td>Col 1</td>
-              <td>Col 2</td>
-            </tr>
-            <tr class="accent">
-              <td>Line 1</td>
-              <td>Line 2</td>
-            </tr>
-            <tr class="accent">
-              <td>Line 1</td>
-              <td>Line 2</td>
-            </tr>
-            <tr class="accent">
-              <td>Line 1</td>
-              <td>Line 2</td>
-            </tr>
-            <tr class="accent">
-              <td>Line 1</td>
-              <td>Line 2</td>
-            </tr>
-            <tr class="accent">
-              <td>Line 1</td>
-              <td>Line 2</td>
-            </tr>
-          </tbody>
-        </table>
+      <section class="section__key-features">
+        <div class="container container__key-features flex">
+          <div class="container container-features">
+            <ul class="features-list">
+              <h4>Col 1</h4>
+              <li class="feature-list-item">Line</li>
+              <li class="feature-list-item">Line</li>
+              <li class="feature-list-item">Line</li>
+              <li class="feature-list-item">Line</li>
+            </ul>
+          </div>
+          <div class="container container-features">
+            <ul class="features-list">
+              <h4>Col 1</h4>
+              <li class="feature-list-item">Line</li>
+              <li class="feature-list-item">Line</li>
+              <li class="feature-list-item">Line</li>
+              <li class="feature-list-item">Line</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <div class="logo">
-        <img src="#" alt="app academy's logo" />
-        <p class="logo-subtitle">App Academy</p>
+    <footer class="flex">
+      <div class="logo-container flex">
+        <div class="logo"></div>
+        <!-- <img src="#" alt="app academy's logo" /> -->
+        <div class="logo-subheader">
+          <p class="logo-subtitle">App Academy</p>
+        </div>
       </div>
-      <div class="footer__links">
-        <ul class="footer__links-list">
+      <div class="footer__links flex">
+        <ul class="footer__links-list flex">
           <li class="footer__link-list-item">
             <a href="" class="footer__link">Contact</a>
           </li>

@@ -1,0 +1,157 @@
+/* Quick resets - for better alignment control */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General global styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 200;
+  width: 80vw;
+  margin: 0 auto;
+}
+section {
+  margin: 2em 2em;
+}
+
+/* Custom Colors */
+
+root: {
+  --clr-light: #fff;
+  --clr-dark: #c70039;
+  --clr-accent: #c70039;
+}
+.accent {
+  color: #c70039;
+}
+.dark {
+}
+.light {
+}
+/* Ultility classes - can be used more than once  */
+
+.container {
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+/* Layout */
+
+/* Header */
+.container-header {
+  justify-content: space-between;
+  padding: 0.75em 1em;
+  border: 2px solid purple;
+}
+.btn__home,
+.btn__sign-in {
+  border: 2px solid purple;
+  padding: 10px 30px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+/* Navigation */
+.nav-list {
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  border: 2px solid green;
+  padding: 0.75em 1em;
+}
+/* Intro */
+.greeting {
+  margin-block: 4em;
+  border: 2px solid pink;
+  width: 75vw;
+  padding: 3em 0;
+}
+.container-sources {
+  flex-direction: row;
+  width: 75vw;
+  justify-content: space-evenly;
+}
+.author {
+  width: 60%;
+}
+
+/* Featured Image */
+.container-img {
+  border: 2px solid salmon;
+  width: 75vw;
+  padding: 5em 0;
+}
+/* Featured text */
+.featured-text {
+  line-height: 1.7;
+}
+
+/* Key Features */
+.section__key-features {
+  border: 2px solid orchid;
+}
+/* Footer */
+footer {
+  border: 2px solid darkcyan;
+  justify-content: space-between;
+}
+.logo-container {
+  flex-direction: row;
+  border: 2px solid slateblue;
+  width: 20%;
+}
+
+/* Typography */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 36px;
+}
+.article__section-title {
+  font-size: 18px;
+  text-align: left;
+}
+.social-links {
+  width: 40%;
+  justify-content: flex-end;
+  align-self: baseline;
+  border: 2px solid skyblue;
+}
+.social-link {
+  margin-right: 1.5em;
+}
+.footer__links {
+  width: 60%;
+  justify-content: flex-end;
+  align-self: end;
+  border: 2px solid skyblue;
+}
+.footer__links-list {
+  list-style-type: none;
+}
+.footer__link-list-item {
+  margin-right: 1.5em;
+}
+/* .logo-subheader {
+  max-width: 8ch;
+} */
+
+.logo {
+  background-size: cover;
+  background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+  background-color: inherit;
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
