@@ -26,18 +26,14 @@ img {
 
 /* Custom Colors */
 
-root: {
-  --clr-light: #fff;
-  --clr-dark: #c70039;
-  --clr-accent: #c70039;
+:root {
+  --clr-light: hsl(0, 0%, 98%);
+  --clr-dark: hsl(0, 0%, 0%);
+
+  --clr-accent-light: hsl(0, 68%, 32%);
+  --clr-accent-dark: hsl(31, 37%, 15%);
 }
-.accent {
-  color: #c70039;
-}
-.dark {
-}
-.light {
-}
+
 /* Ultility classes - can be used more than once  */
 
 .container {
