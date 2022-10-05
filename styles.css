@@ -18,6 +18,11 @@ body {
 section {
   margin: 2em 2em;
 }
+/* Make images easier to work with */
+img {
+  display: block;
+  max-width: 100%;
+}
 
 /* Custom Colors */
 
@@ -93,7 +98,6 @@ root: {
 .container-img {
   border: 2px solid salmon;
   width: 75vw;
-  padding: 5em 0;
 }
 /* Featured text */
 .featured-text {
