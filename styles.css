@@ -101,6 +101,7 @@ root: {
 footer {
   border: 2px solid darkcyan;
   justify-content: space-between;
+  margin-bottom: 4em;
 }
 .logo-container {
   flex-direction: row;
@@ -142,16 +143,19 @@ h1 {
 .footer__link-list-item {
   margin-right: 1.5em;
 }
-/* .logo-subheader {
+.logo-subheader {
   max-width: 8ch;
-} */
+  text-align: left;
+}
 
 .logo {
   background-size: cover;
   background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
   background-color: inherit;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   margin: 0 auto;
   border: 2px solid red;
+  align-self: end;
+  justify-content: flex-start;
 }
