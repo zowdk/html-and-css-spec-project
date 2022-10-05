@@ -73,10 +73,12 @@ root: {
 }
 /* Intro */
 .greeting {
-  margin-block: 4em;
+  margin-block: 2em;
   border: 2px solid pink;
   width: 75vw;
-  padding: 3em 0;
+  padding-block: 1em;
+  padding-inline: 0.5em;
+  text-align: left;
 }
 .container-sources {
   flex-direction: row;
@@ -135,6 +137,9 @@ h1 {
 }
 .social-link {
   margin-right: 1.5em;
+}
+.author {
+  font-weight: 200;
 }
 .footer__links {
   width: 60%;
