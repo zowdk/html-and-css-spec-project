@@ -41,6 +41,11 @@ root: {
 .flex {
   display: flex;
 }
+/* Components */
+.social-icons {
+  font-size: 24px;
+  color: var(--clr-dark);
+}
 /* Layout */
 
 /* Header */
