@@ -12,8 +12,9 @@ body {
   text-align: center;
   font-family: sans-serif;
   font-weight: 200;
-  width: 80vw;
   margin: 0 auto;
+  background-color: var(--clr-light);
+  color: hsl(31, 37%, 15%);
 }
 section {
   margin: 2em 2em;
@@ -38,6 +39,7 @@ img {
 
 .container {
   margin: 0 auto;
+  max-width: 80vw;
 }
 .flex {
   display: flex;
@@ -110,7 +112,9 @@ img {
 footer {
   border: 2px solid darkcyan;
   justify-content: space-between;
-  margin-bottom: 4em;
+  padding-bottom: 8em;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 .logo-container {
   flex-direction: row;
