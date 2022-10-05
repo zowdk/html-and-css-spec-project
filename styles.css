@@ -107,7 +107,9 @@ root: {
 /* Key Features */
 .section__key-features {
   border: 2px solid orchid;
+  text-align: left;
 }
+
 /* Footer */
 footer {
   border: 2px solid darkcyan;
@@ -144,6 +146,13 @@ h1 {
 }
 .author {
   font-weight: 200;
+}
+.feature-title {
+  font-size: 18px;
+  max-width: 9ch;
+}
+.features-list {
+  list-style-type: "- ";
 }
 .footer__links {
   width: 60%;
