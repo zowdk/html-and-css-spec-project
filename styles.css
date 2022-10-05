@@ -120,6 +120,7 @@ footer {
   flex-direction: row;
   border: 2px solid slateblue;
   width: 20%;
+  justify-content: center;
 }
 
 /* Typography */
@@ -177,8 +178,8 @@ h1 {
   background-color: inherit;
   height: 40px;
   width: 40px;
-  margin: 0 auto;
+  margin-right: 0.5em;
   border: 2px solid red;
-  align-self: end;
+  align-self: center;
   justify-content: flex-start;
 }
