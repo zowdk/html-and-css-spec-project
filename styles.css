@@ -52,18 +52,34 @@ img {
 /* Layout */
 
 /* Header */
+header {
+  margin-top: 0.5em;
+}
 .container-header {
   justify-content: space-between;
   padding: 0.75em 1em;
-  border: 2px solid purple;
 }
 .btn__home,
 .btn__sign-in {
-  border: 2px solid purple;
   padding: 10px 30px;
   border-radius: 5px;
   letter-spacing: 0.5px;
+  font-weight: 400;
 }
+.btn__home {
+  /* border: 2px solid var(--clr-accent-light); */
+  color: var(--clr-accent-light);
+}
+.btn__sign-in:focus,
+.btn__sign-in:hover {
+  background-color: var(--clr-accent-light);
+  color: var(--clr-light);
+}
+.btn__sign-in {
+  background-color: var(--clr-accent-dark);
+  color: var(--clr-light);
+}
+
 /* Navigation */
 .nav-list {
   flex-direction: row;
@@ -71,13 +87,14 @@ img {
   list-style-type: none;
   letter-spacing: 0.5px;
   text-transform: capitalize;
-  border: 2px solid green;
   padding: 0.75em 1em;
+}
+nav {
+  border-bottom: 1px solid var(--clr-accent-dark);
 }
 /* Intro */
 .greeting {
   margin-block: 2em;
-  border: 2px solid pink;
   width: 75vw;
   padding-block: 1em;
   padding-inline: 0.5em;
@@ -128,6 +145,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+a:focus,
+a:hover {
+  color: var(--clr-accent-light);
+  font-weight: 400;
+}
 
 h1 {
   font-size: 36px;
@@ -136,7 +158,8 @@ h1 {
   font-size: 18px;
   text-align: left;
 }
-.social-links {
+
+.nav .social-links {
   width: 40%;
   justify-content: flex-end;
   align-self: baseline;
