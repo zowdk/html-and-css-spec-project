@@ -1,6 +1,6 @@
 # a/A Open Project: Interpreting a Spec
 
-[app Academy](https://www.appacademy.io/) is a San Francisco-based software engineering bootcamp that offers courses both online and on campus. This repository contains my personal solution to "CSS Whack-A-Mole" as part of [a/A Open](https://www.appacademy.io/course/app-academy-open), the free version of a/A's entire online full-stack curriculum. 
+[app Academy](https://www.appacademy.io/) is a San Francisco-based software engineering bootcamp that offers courses both online and on campus. This repository contains my personal solution to "HTML and CSS Spec Project" as part of [a/A Open](https://www.appacademy.io/course/app-academy-open), the free version of a/A's entire online full-stack curriculum. 
 
 
 ## Live Site Demo 
@@ -12,7 +12,7 @@
 ## Objective 
 - Practice interpreting a design spec and building a webpage to match. 
 
- <img src="./img/wireframe-practice.png" alt="" width="600"/>
+ <img src="./img/practice-wireframe.png" alt="" width="600"/>
 
 ## Implementation Highlights 
 - Not set up yet. 
@@ -36,7 +36,7 @@ The wireframe should contain at least:
 
 ## Acknowledgements 
 - Photo by [Emma Andreadaki](https://unsplash.com/es/@eandread?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) via [Unsplash](https://unsplash.com/)
-- Sweeter dummy text generated with [Cake Ipsum], supported by [Basia Madej](https://twitter.com/basiamadej)
+- Sweeter dummy text generated with [Cake Ipsum](https://cupcakeipsum.com/), supported by [Basia Madej](https://twitter.com/basiamadej)
 
 < /  > by [@zowdk](https://twitter.com/zowdk)
 
