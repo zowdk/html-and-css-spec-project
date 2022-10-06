@@ -141,6 +141,10 @@ nav {
   border-radius: 5px;
 }
 
+.container__key-features {
+  align-items: flex-end;
+}
+
 /* Footer */
 
 footer {
