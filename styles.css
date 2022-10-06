@@ -47,7 +47,11 @@ img {
 /* Components */
 .social-icons {
   font-size: 24px;
-  color: var(--clr-dark);
+  color: var(--clr-accent-dark);
+}
+.social-icons:focus,
+.social-icons:hover {
+  color: var(--clr-accent-light);
 }
 /* Layout */
 
@@ -108,6 +112,10 @@ nav {
 .author {
   width: 60%;
 }
+.social-link:focus,
+.social-link:hover {
+  color: var(--clr-accent-light);
+}
 
 /* Featured Image */
 .container-img {
@@ -123,6 +131,12 @@ nav {
 .section__key-features {
   border: 2px solid orchid;
   text-align: left;
+  background-color: hsl(31, 37%, 15%, 0.75);
+  color: var(--clr-light);
+  margin: 0 auto;
+  padding-block: 1em;
+  margin-bottom: 1.5em;
+  max-width: 80vw;
 }
 
 /* Footer */
