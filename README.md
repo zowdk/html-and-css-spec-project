@@ -4,12 +4,15 @@
 
 
 ## Live Site Demo 
+
+ <img src="./img/final-solution.png" alt="" width="600"/>
+
 - Not set up yet. 
 
 ## Objective 
 - Practice interpreting a design spec and building a webpage to match. 
 
-![aa-interpreting-a-spec](https://user-images.githubusercontent.com/80650207/194015567-711e79fa-d08f-491c-8a8a-ac555bffef29.png) 
+ <img src="./img/wireframe-practice.png" alt="" width="600"/>
 
 ## Implementation Highlights 
 - Not set up yet. 
