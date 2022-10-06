@@ -7,7 +7,7 @@
 
  <img src="./img/final-solution.png" alt="" width="600"/>
 
-- Not set up yet. 
+View live site [here](https://zowdk.github.io/html-and-css-spec-project/index.html). 
 
 ## Objective 
 - Practice interpreting a design spec and building a webpage to match. 
