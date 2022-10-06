@@ -122,7 +122,6 @@ nav {
 
 /* Featured Image */
 .container-img {
-  border: 2px solid salmon;
   width: 75vw;
 }
 /* Featured text */
@@ -132,7 +131,6 @@ nav {
 
 /* Key Features */
 .section__key-features {
-  border: 2px solid orchid;
   text-align: left;
   background-color: hsl(31, 37%, 15%, 0.75);
   color: var(--clr-light);
@@ -150,18 +148,16 @@ footer {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   flex-direction: column;
-  row-gap: 3em;
+  row-gap: 2em;
 }
 
 .footer__container {
-  border: 2px solid darkcyan;
   justify-content: space-between;
   padding-block: 1em;
   padding-inline: 1.5em;
 }
 .logo-container {
   flex-direction: row;
-  border: 2px solid slateblue;
   width: 20%;
   justify-content: center;
 }
@@ -172,7 +168,6 @@ footer {
   height: 40px;
   width: 40px;
   margin-right: 0.5em;
-  border: 2px solid red;
   align-self: center;
   justify-content: flex-start;
 }
@@ -200,7 +195,6 @@ h1 {
   width: 40%;
   justify-content: flex-end;
   align-self: baseline;
-  border: 2px solid skyblue;
 }
 .social-link {
   margin-right: 1.5em;
@@ -219,7 +213,6 @@ h1 {
   width: 60%;
   justify-content: flex-end;
   align-self: end;
-  border: 2px solid skyblue;
 }
 .footer__links-list {
   list-style-type: none;
