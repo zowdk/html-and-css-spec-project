@@ -1,15 +1,18 @@
 # a/A Open Project: Interpreting a Spec
 
-[app Academy](https://www.appacademy.io/) is a San Francisco-based software engineering bootcamp that offers courses both online and on campus. This repository contains my personal solution to "CSS Whack-A-Mole" as part of [a/A Open](https://www.appacademy.io/course/app-academy-open), the free version of a/A's entire online full-stack curriculum. 
+[app Academy](https://www.appacademy.io/) is a San Francisco-based software engineering bootcamp that offers courses both online and on campus. This repository contains my personal solution to "HTML and CSS Spec Project" as part of [a/A Open](https://www.appacademy.io/course/app-academy-open), the free version of a/A's entire online full-stack curriculum. 
 
 
 ## Live Site Demo 
-- Not set up yet. 
+
+ <img src="./img/final-solution.png" alt="" width="600"/>
+
+View live site [here](https://zowdk.github.io/html-and-css-spec-project/index.html). 
 
 ## Objective 
 - Practice interpreting a design spec and building a webpage to match. 
 
-![aa-interpreting-a-spec](https://user-images.githubusercontent.com/80650207/194015567-711e79fa-d08f-491c-8a8a-ac555bffef29.png) 
+ <img src="./img/practice-wireframe.png" alt="" width="600"/>
 
 ## Implementation Highlights 
 - Not set up yet. 
@@ -33,7 +36,7 @@ The wireframe should contain at least:
 
 ## Acknowledgements 
 - Photo by [Emma Andreadaki](https://unsplash.com/es/@eandread?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) via [Unsplash](https://unsplash.com/)
-- Sweeter dummy text generated with [Cake Ipsum], supported by [Basia Madej](https://twitter.com/basiamadej)
+- Sweeter dummy text generated with [Cake Ipsum](https://cupcakeipsum.com/), supported by [Basia Madej](https://twitter.com/basiamadej)
 
 < /  > by [@zowdk](https://twitter.com/zowdk)
 
